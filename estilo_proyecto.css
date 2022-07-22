@@ -276,6 +276,44 @@ body {
     margin-left: 5px;
 }
 
+.parte2  {
+    position: relative;
+    box-sizing:border-box;
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    width:70%;
+    height:580px;
+    flex-direction: row; 
+    justify-content:space-around;
+   
+}
+.primero2 {
+    box-sizing: border-box;
+    display:flex;
+    position:absolute;
+    width: 380px;
+    padding: 2%;
+   
+ 
+   
+}
+.segundo2 {
+    box-sizing: border-box;
+    position:absolute; 
+    max-width: fit-content;
+    max-width: 380px;
+    height: 350px;
+    left: 70%;
+    right: 25%;
+    padding: 2px;
+   
+}
+.segundo2 img {
+    width:90%;
+
+}
+
 
 .foot footer {
     box-sizing:border-box;
